@@ -137,10 +137,13 @@ end
 = Oh, Lt. Surge, you're so strong!\nWe don't stand a chance against\lyou!
 
 #org @bugTalk
-= Yeah! You're wicked powerful!\pOh, please, Surge, can't you\ntell us how you and your Pokémon\lgot so strong?\pWe want to be like you too!
+= Yeah! You're wicked powerful!\pOh, please, Surge, can't you\ntell us how you and your PokÃ©mon\lgot so strong?\pWe want to be like you too!
 
 #org @gymTalk
-= Lt. Surge: Hahaha!\nWell, I'll tell ya, kids!\pExercise your body by pushing\nyourself a little harder every\lday!\pMake sure you and your Pokémon\nboth are taking your vitamins and\lgetting a good night's sleep every\lnight!\pAnd remember: It's real important\nthat you always eat your meats and\lyour veggies!\pHahaha! That's the way to do it,\nkids! Good luck!
+= Lt. Surge: Hahaha!\nWell, I'll tell ya, kids!\pExercise your body by pushing\nyourself a little harder every\lday!\pMake sure you and your PokÃ©mon\nboth are taking your vitamins and\lgetting a good night's sleep every\lnight!\pAnd remember: It's real important\nthat you always eat your meats and\lyour veggies!\pHahaha! That's the way to do it,\nkids! Good luck!
+
+#org gymTalk2
+= Lt. Surge: (I actually don't do that...)\p(But, nobody knows except me!)
 
 #org @youngTalk2
 = Did you hear that?\nWe can be strong like Surge!\pCome on, let's go work out!
@@ -192,8 +195,9 @@ end
 #raw STEP_U
 #raw 0xFE
 
-#org @gymTalk2
-= Lt. Surge: Well, if it isn't my\nfavorite little Rocket man!\pHow are ya?\pNot scared lifeless from ol'\nLance's paranoid new crime-\lfighting measures, I hope? Haha!\pAnyway, I take it you brought\nthe regular goodies..?
+#org @gymTalk3
+= Lt. Surge: Well, if it isn't my\nfavorite little Rocket man!\pHow are ya?\pNot scared lifeless from ol'\nLance's paranoid new crime-\lfighting measures, I hope? Haha!\pAnyway, I take it you brought\nthe regular goodies..?
+
 
 #org @adminTalk
 = Proton: Yes. As a matter of fact,\nthis grunt here has brought a\lparticularly strong yield straight\lfrom our top chemists.\pIt's as promised, Surge.
@@ -207,14 +211,14 @@ end
 #raw 0x1C
 #raw 0xFE
 
-#org @gymTalk3
+#org @gymTalk4
 = Lt. Surge: Well, I'll be!\nYou guys are really something!\pLet's have it then, little buddy.
 
 #org @steroidDelivery
 = [player] delivered the Steroids to\nLt. Surge.
 
 #org @adminTalk2
-= Proton: Now, Surge-- the Pokémon,\nif you'd be so kind.
+= Proton: Now, Surge-- the PokÃ©mon,\nif you'd be so kind.
 
 #org @gymStroll2
 #raw FACE_R
@@ -225,23 +229,23 @@ end
 #raw 0x1C
 #raw 0xFE
 
-#org @gymTalk4
+#org @gymTalk5
 = Lt. Surge: Oh yeah, that's right!\nThe Johto beasts, right?\pYeah, I had my guys stack them in\ncrates and hide them somewhere\laboard the ship.\pDon't worry one bit about getting\nyourselves aboard!\pThe doormen all happen to be my\nfolks too-- they'll let you in as\llong as I drop them a word.\pSound all right?
 
 #org @adminTalk3
-= Proton: [.]\c\h08ó\pSo you're telling me the crates\nare all still aboard the ship?\pYou couldn't have done us the\ncourtesy of carrying them on land?
-
-#org @gymTalk5
-= Lt. Surge: Now, Proton, easy!\pDo you know how heavy those darn\nthings are?\pIf I was to go carry those all by\nmyself, my whole back would snap\lin half, I tell ya!
+= Proton: [.]\c\h08Ã³\pSo you're telling me the crates\nare all still aboard the ship?\pYou couldn't have done us the\ncourtesy of carrying them on land?
 
 #org @gymTalk6
+= Lt. Surge: Now, Proton, easy!\pDo you know how heavy those darn\nthings are?\pIf I was to go carry those all by\nmyself, my whole back would snap\lin half, I tell ya!
+
+#org @gymTalk7
 = Anyway, don't you get all worked\nup just yet-- you gotta look at\lthings from the bright side!\pI don't know if you heard, but\nthey're throwing this exclusive\lparty right on board tonight!\pRumor has it some powerful\npolitical figures might even be\lattending, so if you're lucky you\lcould end up in some quite\lexciting company, how's that?
 
 #org @adminTalk4
 = Proton: Yes, going out to party\nwith government officials is\ljust what we Rockets should be\ldoing right now, isn't it?
 
 #org @adminTalk5
-= [.]\n\c\h08ó(Sigh)\pWell, I don't suppose we've got\nmuch choice.\pLet's get going, grunt.\pNo use sitting around being\nbummed out about it.
+= [.]\n\c\h08Ã³(Sigh)\pWell, I don't suppose we've got\nmuch choice.\pLet's get going, grunt.\pNo use sitting around being\nbummed out about it.
 
 #org @adminLeave
 #raw STEP_D
