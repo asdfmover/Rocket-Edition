@@ -55,7 +55,7 @@ end
 #raw 0xFE
 
 #org @talk
-= ...
+= ...\pMove over, Rocket.
 
 #org @playerMove
 #raw STEP_U
