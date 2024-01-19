@@ -315,11 +315,11 @@ fadeout 0x0
 pause 0x9
 msgbox @oakTalk34 0x6
 pause 0x25
-sound 0x36 // throw Poké ball sound
+sound 0x36 // throw PokÃ© ball sound
 showsprite _POKE_BALL1
 checksound
 pause 0x7
-sound 0xF // Poké ball open
+sound 0xF // PokÃ© ball open
 fadescreen 0x2
 hidesprite _POKE_BALL1
 showsprite _TAUROS
@@ -647,7 +647,7 @@ waitmovement 0x0
 // send out pokemon
 call @setPokeVariables
 sound 0x0
-sound 0x36 // throw Poké ball sound
+sound 0x36 // throw PokÃ© ball sound
 movesprite2 _POKE_BALL1 0x4 0x5
 movesprite _POKE_BALL1 0x4 0x5
 movesprite2 _POKE_BALL2 0x3 0x5
@@ -656,12 +656,12 @@ showsprite _POKE_BALL1
 showsprite _POKE_BALL2
 checksound
 spriteface _OAK FACE_RIGHT
-sound 0x36 // throw Poké ball sound
+sound 0x36 // throw PokÃ© ball sound
 movesprite2 _POKE_BALL3 0x6 0x5
 movesprite _POKE_BALL3 0x6 0x5
 showsprite _POKE_BALL3
 pause 0x7
-sound 0xF // Poké ball open
+sound 0xF // PokÃ© ball open
 fadescreen 0x2
 hidesprite _POKE_BALL1
 movesprite2 _POKE1 0x4 0x5
@@ -676,7 +676,7 @@ applymovement _OAK @oakRun5
 cry _POKE1_SPECIES 0x0
 cry _POKE2_SPECIES 0x0
 checksound
-sound 0xF // Poké ball open
+sound 0xF // PokÃ© ball open
 spriteface _LANCE FACE_UP
 spriteface _BILL FACE_UP
 spriteface 0xFF FACE_UP
@@ -748,7 +748,7 @@ movesprite2 _POKE_BALL1 0x4 0x9
 movesprite _POKE_BALL1 0x4 0x9
 showsprite _POKE_BALL1
 pause 0x7
-sound 0xF // Poké ball open
+sound 0xF // PokÃ© ball open
 fadescreen 0x2
 hidesprite _POKE_BALL1
 movesprite2 _MISSINGNO 0x4 0x9
@@ -1235,7 +1235,7 @@ msgbox @lossTalk2 0x6
 pause 0x10
 fadescreen 0x3
 pause 0x10
-sound 0xF // Poké ball open
+sound 0xF // PokÃ© ball open
 checksound
 sound 0x79
 pause 0x25
@@ -1249,22 +1249,22 @@ end
 
 
 #org @whiteoutTalk1
-= Oak: Back for more, Rocket?\c\h08ó\nVery well.\pRed will gladly take you down[.]\c\h08ó\nOver and over[.]\c\h08ó and over again.
+= Oak: Back for more, Rocket?\c\h08Ã³\nVery well.\pRed will gladly take you down[.]\c\h08Ã³\nOver and over[.]\c\h08Ã³ and over again.
 
 #org @ronnieNo
-= Ronnie: NO!\c\h08ó\n[player]!
+= Ronnie: NO!\c\h08Ã³\n[player]!
 
 #org @lossTalk1
-= Oak: Ah[.]\c\h08ó\nYou made it far, Rocket.
+= Oak: Ah[.]\c\h08Ã³\nYou made it far, Rocket.
 
 #org @lossTalk2
-= Just not far enough.\c\h08ó\nNow I'll take you where you belong!
+= Just not far enough.\c\h08Ã³\nNow I'll take you where you belong!
 
 #org @oakTalk0
 = Oak: Hello, Rocket.
 
 #org @oakTalk1
-= [.]\c\h08ó\nI think you should know[.]\pYou're one of just a handful of\npeople in my life[.]\pTo have exhausted my patience for\npolite conversation.
+= [.]\c\h08Ã³\nI think you should know[.]\pYou're one of just a handful of\npeople in my life[.]\pTo have exhausted my patience for\npolite conversation.
 
 #org @oakTalk2
 = You[.]\nSlimy little radical!\pI thought you'd be just another\nspeck for Red to wipe away and\lforget about.\pBut somehow you've slipped through\nevery single crack there was[.]\pThrough exactly the sequence of\nsteps that could unravel everything\lI've worked for..!
@@ -1279,7 +1279,7 @@ end
 = I'll tell you this[.]\pIt was the hardest thing I ever\ndid, becoming Kanto's traitor[.]\pBut it helped reinforce a lesson I\nhad already begun to learn[.]\pAbout "honor".
 
 #org @oakTalk6
-= You see[.]\pIn war[.]\c\h08ó people will fight to\ntheir dying breath.\pBut in peacetime[.]\pThey'll forfeit without a second\nthought to any odd kid who can\lbeat them in a Pokémon battle!\pAll in the name of this "honor".
+= You see[.]\pIn war[.]\c\h08Ã³ people will fight to\ntheir dying breath.\pBut in peacetime[.]\pThey'll forfeit without a second\nthought to any odd kid who can\lbeat them in a PokÃ©mon battle!\pAll in the name of this "honor".
 
 #org @oakTalk7
 = So it stands to reason[.]\pIf you control the strongest\nTrainer[.]\pYou control the shape of history.
@@ -1288,19 +1288,19 @@ end
 = See, I have no plans to be a\nchivalrous leader[.]\pJust a smart one.
 
 #org @oakTalk9
-= What do I care about my "legacy"?\c\h08ó\nAbout living up to higher virtues?\pWhere is the rational, scientific\nbasis for believing in any of that?\pWhen I'm dead[.]\c\h08ó\nNone of it will matter.
+= What do I care about my "legacy"?\c\h08Ã³\nAbout living up to higher virtues?\pWhere is the rational, scientific\nbasis for believing in any of that?\pWhen I'm dead[.]\c\h08Ã³\nNone of it will matter.
 
 #org @oakTalk10
-= I've been surrounded all my life\nby these idiots, who fail to see[.]\pThat there is only power and\nweakness[.]\pPleasure and pain[.]\c\h08ó\nLife and death.\pNone of their precious values mean\nanything in the final analysis.
+= I've been surrounded all my life\nby these idiots, who fail to see[.]\pThat there is only power and\nweakness[.]\pPleasure and pain[.]\c\h08Ã³\nLife and death.\pNone of their precious values mean\nanything in the final analysis.
 
 #org @oakTalk11
 = It's why I can vent and prattle on\nto you about anything I like.\pBecause the word of a lowly\ncriminal means nothing to a person\lof any stature.\pIf I faced you in a court of law we\nboth know who would win.
 
 #org @oakTalk12
-= I do what I can[.]\c\h08ó\nPull the strings I have to pull[.]\lTo further my own interests.\pI don't need any pompous ideals\nto fool myself into thinking I'm\ldoing anything else.
+= I do what I can[.]\c\h08Ã³\nPull the strings I have to pull[.]\lTo further my own interests.\pI don't need any pompous ideals\nto fool myself into thinking I'm\ldoing anything else.
 
 #org @oakTalk13
-= Yes[.]\c\h08ó I've been there all along[.]\c\h08ó\nIn Red's adventure.\pNudging him in the right direction.\pWhispering in his ear when he was\nabout to make a mistake[.]
+= Yes[.]\c\h08Ã³ I've been there all along[.]\c\h08Ã³\nIn Red's adventure.\pNudging him in the right direction.\pWhispering in his ear when he was\nabout to make a mistake[.]
 
 #org @oakTalk14
 = Nobody in their right mind would\nthink a child should hold the power\lof a device like Master Ball.\pBut when the opportunity presented\nitself for him to grab a copy[.]\pI couldn't possibly let him pass\nit by.
@@ -1309,7 +1309,7 @@ end
 = Then, of course[.]\pI needed to make sure none of the\nMewtwo scientists would suddenly\lget curious about Red's origins[.]\pSo I stepped in to keep them out of\nthe way.\pIf it wasn't for Bill I would have\neasily scared them into submission.
 
 #org @oakTalk16
-= Now, it became clear to me when my\naides called me about your little\lintrusion on my lab[.]\pThat I hadn't insured myself\nagainst every contingency.\pBut it doesn't matter.\c\h08ó\nAll can still be well[.]\lThese slip-ups can be rectified[.]\pIf I stick to the plan and I do not\nlet my emotions get away with me[.]
+= Now, it became clear to me when my\naides called me about your little\lintrusion on my lab[.]\pThat I hadn't insured myself\nagainst every contingency.\pBut it doesn't matter.\c\h08Ã³\nAll can still be well[.]\lThese slip-ups can be rectified[.]\pIf I stick to the plan and I do not\nlet my emotions get away with me[.]
 
 #org @oakTalk17
 = Red is quite the role model in\nthat regard, isn't he?\pThe very image of pure, cold-blooded\nrationality[.]
@@ -1324,13 +1324,13 @@ end
 = Doesn't it fascinate you, now you\nknow the truth?
 
 #org @oakTalk21
-= Who is Red, really?\c\h08ó\nWhat's his personality?\p[.]\pHe could be anyone.\c\h08ó\nHe's only a puppet.
+= Who is Red, really?\c\h08Ã³\nWhat's his personality?\p[.]\pHe could be anyone.\c\h08Ã³\nHe's only a puppet.
 
 #org @oakTalk22
-= Yes[.]\c\h08ó A puppet for someone else to\ncontrol from a distance[.]\pThat's his purpose in life.
+= Yes[.]\c\h08Ã³ A puppet for someone else to\ncontrol from a distance[.]\pThat's his purpose in life.
 
 #org @oakTalk23
-= I think, Rocket[.]\pYou're much alike in that way[.]\c\h08ó\nThe two of you.
+= I think, Rocket[.]\pYou're much alike in that way[.]\c\h08Ã³\nThe two of you.
 
 #org @oakTalk24
 = But that's enough talk!\pI happen to know Red gave you a\nthorough beating somewhere at\lMt. Moon a long time ago.
@@ -1339,40 +1339,43 @@ end
 = He is orders of magnitude stronger\nthan any Trainer he has faced.\pAnd I can assure you[.]\pIf you struggled to stand your own\nbattling him back then[.]\pYou don't stand a chance in hell\nagainst him now.
 
 #org @oakTalk26
-= But then your Pokémon seem to be\nthe only defense you have.\pSo, in the name of our culture's\nsilly little etiquette[.]\pStand tall, Rocket[.]\c\h08ó\nAnd face him like a man!
+= But then your PokÃ©mon seem to be\nthe only defense you have.\pSo, in the name of our culture's\nsilly little etiquette[.]\pStand tall, Rocket[.]\c\h08Ã³\nAnd face him like a man!
 
 #org @ellipses
-= ...
+= ...\pLet's end this.
 
 #org @defeatText
-= ...!
+= ...!\nI've been defeated[.]\nDefeated by you, [player][.]\nI'm sorry, Oak[.]\nI failed you[.]
+
+#org @playerLossText
+= ...\nTake that, [player]...
 
 #org @oakTalk27
-= Oak: N-no..!\c\h08ó\nIt's not possible..!\pI wasn't prepared for[.]\c\h08ó\nAgh! Red, you worthless idiot!
+= Oak: N-no..!\c\h08Ã³\nIt's not possible..!\pI wasn't prepared for[.]\c\h08Ã³\nAgh! Red, you worthless idiot!
 
 #org @oakTalk28
-= I won't have[.]\c\h08ó\nEverything fall apart[.]\lNot like this..!
+= I won't have[.]\c\h08Ã³\nEverything fall apart[.]\lNot like this..!
 
 #org @oakTalk29
 = Step away, kid!\nI'll handle this myself!
 
 #org @agathaTalk1
-= Agatha: Samuel!\c\h08ó\nOh, I couldn't wait any longer[.]\pPlease forgive me for letting the\ncriminal inside[.]
+= Agatha: Samuel!\c\h08Ã³\nOh, I couldn't wait any longer[.]\pPlease forgive me for letting the\ncriminal inside[.]
 
 #org @agathaTalk2
-= Samuel, I'm[.]\c\h08ó so sorry!\pI had you all wrong[.]\pI really thought, ten years ago[.]\c\h08ó\nThat you had become a coward.\pIt didn't seem right to me-- I knew\nit didn't add up[.]
+= Samuel, I'm[.]\c\h08Ã³ so sorry!\pI had you all wrong[.]\pI really thought, ten years ago[.]\c\h08Ã³\nThat you had become a coward.\pIt didn't seem right to me-- I knew\nit didn't add up[.]
 
 #org @agathaTalk3
-= I should have realized[.]\c\h08ó\nThat your strength, your vision[.]\pYour commitment to being the\ngreatest, most powerful leader in\lthe world never left you.\pTruly[.]\pYou were a man of honor all along[.]\c\h08ó\nI should've never left your side!
+= I should have realized[.]\c\h08Ã³\nThat your strength, your vision[.]\pYour commitment to being the\ngreatest, most powerful leader in\lthe world never left you.\pTruly[.]\pYou were a man of honor all along[.]\c\h08Ã³\nI should've never left your side!
 
 #org @agathaTalk4
 = I haven't known how to feel about\nyou for so long[.]\pI loved you for who you were[.]\pAnd hated you for what I thought\nyou had done to us[.]\pBut now I that I've seen the truth,\nI've realized[.]
 
 #org @agathaTalk5
-= My love for you has never wavered\nfor a second all these years!\pI just didn't understand my own\nfeelings[.]\c\h08ó not until now!\pOh, Samuel[.]\pLet us build the Kanto we dreamed\nof together[.]\pEverything can be just as it was!
+= My love for you has never wavered\nfor a second all these years!\pI just didn't understand my own\nfeelings[.]\c\h08Ã³ not until now!\pOh, Samuel[.]\pLet us build the Kanto we dreamed\nof together[.]\pEverything can be just as it was!
 
 #org @oakTalk30
-= Oak: You[.]\c\h08ó\nHow[.]\c\h08ó\c\h08ó dare you..?!
+= Oak: You[.]\c\h08Ã³\nHow[.]\c\h08Ã³\c\h08Ã³ dare you..?!
 
 #org @oakTalk31
 = You throw me away in disgust when\nI'm at my lowest and weakest[.]\pThen come back begging at my feet\nright as I return to power.\pOh, you're a woman through and\nthrough, Agatha!
@@ -1381,19 +1384,19 @@ end
 = And then to speak to me now in lofty\nterms about "love" and "honor"[.]\pYou disgust me[.]
 
 #org @oakTalk33
-= You've had your chances.\nDon't you deny it.\pAnd you've shown me now[.]\c\h08ó\nBeyond a shadow of a doubt[.]\lJust how deep your loyalty runs.
+= You've had your chances.\nDon't you deny it.\pAnd you've shown me now[.]\c\h08Ã³\nBeyond a shadow of a doubt[.]\lJust how deep your loyalty runs.
 
 #org @oakTalk34
-= Here[.]\pI'll show you what I think about\nyour fucking honor.
+= Here[.]\pI'll show you what I think about\nyour blastified honor.
 
 #org @oakTalk35
-= Tauros!\c\h08ó\nGiga Impact!\lNo holding back!
+= Tauros!\c\h08Ã³\nGiga Impact!\lNo holding back!
 
 #org @oakTalk36
-= Oak: Well?!\c\h08ó\nWhat are you gawking at, Rocket?\pI believe we had some unfinished\nbusiness..!
+= Oak: Well?!\c\h08Ã³\nWhat are you gawking at, Rocket?\pI believe we had some unfinished\nbusiness..!
 
 #org @oakTalk37
-= ..!\c\h08ó\nIt's always the same damn thing!\pImmaculate plans sabotaged by the\nwhims of mediocre people..!
+= ..!\c\h08Ã³\nIt's always the same damn thing!\pImmaculate plans sabotaged by the\nwhims of mediocre people..!
 
 #org @oakTalk38
 = It's a truism, isn't it?!\pTo get anything done you have to\ndo it yourself[.]
@@ -1402,16 +1405,16 @@ end
 = Now let's see how best to deal\nwith a nosy weasel like you..!
 
 #org @billTalk
-= Bill: Jesus..!\c\h08ó\nNever mind those ghosts anymore[.]\pLooks like we missed out on the\nreal action..!
+= Bill: Jesus..!\c\h08Ã³\nNever mind those ghosts anymore[.]\pLooks like we missed out on the\nreal action..!
 
 #org @billTalk2
-= What a carnage[.]\pI never liked that lady much, but\nshe must have really pinched a\lnerve to deserve that treatment[.]\pAnd without any healthy Pokémon\nleft to defend herself[.]
+= What a carnage[.]\pI never liked that lady much, but\nshe must have really pinched a\lnerve to deserve that treatment[.]\pAnd without any healthy PokÃ©mon\nleft to defend herself[.]
 
 #org @healingTalk
 = Here, [player].\pI figured you might need some\nhealing up.\pThank me later.
 
 #org @billTalk3
-= Oh, I see how it is!\p[player] defeated your little\nrobot boy!\pHa!\c\h08ó\nNow there's a development!
+= Oh, I see how it is!\p[player] defeated your little\nrobot boy!\pHa!\c\h08Ã³\nNow there's a development!
 
 #org @billTalk4
 = Well, I wonder what went wrong in\ndesigning him, old man?\pI mean, he's the spitting image of\nan insurmountable muscle-man,\lisn't he?
@@ -1423,22 +1426,22 @@ end
 = Bill: Give it up, already.\p[player] has already proven him-\nself the stronger Trainer.\pHe could take on the League again\nthe proper way and become Champion\lanytime he likes!
 
 #org @oakTalk41
-= Oak: You simpleton[.]\c\h08ó\nMind your tongue!
+= Oak: You simpleton[.]\c\h08Ã³\nMind your tongue!
 
 #org @oakTalk42
-= Need I remind you..?!\pThat unlike Lance, Blue, and Red[.]\c\h08ó\nI am undefeated in battle?!\p[.]And I have not been idle for the\npast ten years.
+= Need I remind you..?!\pThat unlike Lance, Blue, and Red[.]\c\h08Ã³\nI am undefeated in battle?!\p[.]And I have not been idle for the\npast ten years.
 
 #org @oakTalk43
-= I kept my Pokémon in shape so I\ncould stand my own against Red as\lhis final challenge[.]\pBut it seems there's no need for\nthat anymore.
+= I kept my PokÃ©mon in shape so I\ncould stand my own against Red as\lhis final challenge[.]\pBut it seems there's no need for\nthat anymore.
 
 #org @oakTalk44
 = Rocket!\pI'd have liked to see you rot in\njail, but now I think I'd rather\ldeal out your punishment myself.\pI'm already beyond the law, so I\nbelieve we're on an even playing\lfield at last!
 
 #org @oakTalk45
-= Mark my words[.]\c\h08ó\nI won't fight you out of dignity[.]\pI will ruin your defenses and leave\nyou like the old hag on the floor.
+= Mark my words[.]\c\h08Ã³\nI won't fight you out of dignity[.]\pI will ruin your defenses and leave\nyou like the old hag on the floor.
 
 #org @oakTalk46
-= Look around you and take it in,\nRocket[.]\pNo one else has the faintest chance\nof saving you[.]\p[.]\c\h08ó\nYou're on your own!
+= Look around you and take it in,\nRocket[.]\pNo one else has the faintest chance\nof saving you[.]\p[.]\c\h08Ã³\nYou're on your own!
 
 #org @playerWinText
 = NO..!\nImpossible!
@@ -1447,16 +1450,16 @@ end
 = Hahahaha!\nJust as I thought[.]
 
 #org @oakTalk47
-= Oak: I-it can't be right[.]\c\h08ó\nIt wasn't supposed to be this way!\pI had everything planned to the\nnth degree[.]
+= Oak: I-it can't be right[.]\c\h08Ã³\nIt wasn't supposed to be this way!\pI had everything planned to the\nnth degree[.]
 
 #org @oakTalk48
-= There was no way a regular Trainer\ncould have posed a threat[.]\pAnd[.]\c\h08ó Team Rocket is a joke! An in-\nsignificant little speck on Kanto!\pIt's just not possible that one of\nthem could[.]
+= There was no way a regular Trainer\ncould have posed a threat[.]\pAnd[.]\c\h08Ã³ Team Rocket is a joke! An in-\nsignificant little speck on Kanto!\pIt's just not possible that one of\nthem could[.]
 
 #org @oakTalk49
 = But[.]\pThere's something different about\nyou[.]
 
 #org @oakTalk50
-= It's the only explanation..!\pYou're no regular Rocket[.]\c\h08ó\nYou're a--\c\h08ó
+= It's the only explanation..!\pYou're no regular Rocket[.]\c\h08Ã³\nYou're a--\c\h08Ã³
 
 #org @lanceTalk
 = All right, hold it! This is the end\nof the road for you, Oak!
@@ -1465,19 +1468,19 @@ end
 = Lance: You didn't really think you\ncould keep us out forever, did you?
 
 #org @lanceTalk3
-= You stand accused of government\nconspiracy, professor.\pOf violating your ban on Pokémon\nbattle[.]
+= You stand accused of government\nconspiracy, professor.\pOf violating your ban on PokÃ©mon\nbattle[.]
 
 #org @lanceTalk4
 = And I'll bet you're not innocent\nin whatever happened to Agatha..!
 
 #org @lanceTalk5
-= As for Red[.]\c\h08ó And the claims that\nhe's not human[.]\pHe will be subject to thorough\nmedical examination so we can\lascertain that for a fact.
+= As for Red[.]\c\h08Ã³ And the claims that\nhe's not human[.]\pHe will be subject to thorough\nmedical examination so we can\lascertain that for a fact.
 
 #org @lanceTalk6
-= [.]\c\h08ó\nYou're a fool, Oak.\pDid you really think you could\nsnatch back control of this place\lwith your intellectual schemes?
+= [.]\c\h08Ã³\nYou're a fool, Oak.\pDid you really think you could\nsnatch back control of this place\lwith your intellectual schemes?
 
 #org @lanceTalk7
-= In case you've forgotten[.]\pIn the real world, we earn our\npower by sweat and blood.\pSlimy geeks are only ever Pokémon\nMasters in their dreams.
+= In case you've forgotten[.]\pIn the real world, we earn our\npower by sweat and blood.\pSlimy geeks are only ever PokÃ©mon\nMasters in their dreams.
 
 #org @lanceTalk8
 = Grab him!
@@ -1486,7 +1489,7 @@ end
 = Oak: Stand back! You don't know\nwhat you're talking about!\p[.]And you will not go against your\nChampion's wishes..!
 
 #org @oakTalk52
-= Oak: Red, quickly!\pYour Pokémon, send them out!\nI need their protection!
+= Oak: Red, quickly!\pYour PokÃ©mon, send them out!\nI need their protection!
 
 #org @oakTalk53
 = Oak: Hahaha!\nI know how to operate this\lmachine, you idiots!
@@ -1495,19 +1498,19 @@ end
 = I'll put in my name as the new\nChampion, and rule the region from\lthis room!\pI can do a lot of damage before\nyou get me out, believe me..!
 
 #org @billTalk6
-= Bill: Damn it, [player][.]\pAre you healthy enough to fight\nRed's Pokémon again..?
+= Bill: Damn it, [player][.]\pAre you healthy enough to fight\nRed's PokÃ©mon again..?
 
 #org @billTalk7
-= Ah[.]\c\h08ó If only we could reach that\ncomputer..!\pCome on[.]\c\h08ó\nDo something!
+= Ah[.]\c\h08Ã³ If only we could reach that\ncomputer..!\pCome on[.]\c\h08Ã³\nDo something!
 
 #org @missingnoText
-= [.]\c\h08ó\c\h08óhuh?\p[.]MissingNo. is shaking inside its\nPoké Ball!
+= [.]\c\h08Ã³\c\h08Ã³huh?\p[.]MissingNo. is shaking inside its\nPokÃ© Ball!
 
 #org @oakTalk55
-= Oak: My God[.]\c\h08ó\nIt's still around, is it..?\p"The Catastrophe"[.]\c\h08ó\nWhat a marvelous sight[.]
+= Oak: My God[.]\c\h08Ã³\nIt's still around, is it..?\p"The Catastrophe"[.]\c\h08Ã³\nWhat a marvelous sight[.]
 
 #org @oakTalk56
-= It's corrupting everything[.]\c\h08ó\nEvery record[.]\pWhat a creature[.]\c\h08ó\nHahahaha!
+= It's corrupting everything[.]\c\h08Ã³\nEvery record[.]\pWhat a creature[.]\c\h08Ã³\nHahahaha!
 
 #org @oakTalk57
 = Oak: Oh, wait till you speak to my\nlawyers, you imbeciles[.]
@@ -1522,7 +1525,7 @@ end
 = Lance: Silence!\pThere's been enough meddling with\nthe law today already.\pI will not have any more criminals\nrunning free!
 
 #org @oakTalk58
-= Oak: Hey, Rocket[.]\pWelcome to the world of Pokémon!\c\h08ó\nHahaha[.]
+= Oak: Hey, Rocket[.]\pWelcome to the world of PokÃ©mon!\c\h08Ã³\nHahaha[.]
 
 
 #org @stepU
