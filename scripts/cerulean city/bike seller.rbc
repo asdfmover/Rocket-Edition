@@ -52,19 +52,19 @@ release
 end
 
 #org @talk
-= What in the..?\pDo you think you can just waltz on\nin here and steal yourself one of\lour expertly, painstakingly\lcrafted top-grade Bicycles?
+= What in Arceus' name?\pDo you think you can just waltz on\nin here and steal yourself one of\lour expertly, painstakingly\lcrafted top-grade Bicycles?
 
 #org @no1
 = No? Oh, okay, then.\nCarry on.
 
 #org @talk2
-= Who do you think you are?\p[.]\c\h08ó\nOh, a Rocket, is that it?\pYou think it's cool, do you?\pYou think stealing the fruits of\nother men's labor is cool?\pYou think that gluttonously taking\nwhatever your greedy hands can\lreach, without regard for the\lwell-being or the needs of this\lregion's people, let alone the\lprosperity of its fledgling\leconomy--is COOL?
+= Who do you think you are?\p[.]\c\h08Ã³\nOh, a Rocket, is that it?\pYou think it's cool, do you?\pYou think stealing the fruits of\nother men's labor is cool?\pYou think that gluttonously taking\nwhatever your greedy hands can\lreach, without regard for the\lwell-being or the needs of this\lregion's people, let alone the\lprosperity of its fledgling\leconomy--is COOL?
 
 #org @no2
-= Wha--\c\h08ó no, did you say?\nUm[.] why, that's exactly right.\pNot cool in the slightest.
+= Wha--\c\h08Ã³ no, did you say?\nUm[.] why, that's exactly right.\pNot cool in the slightest.
 
 #org @talk3
-= [.]\c\h08ó\nYou!\pYou are the embodiment of\neverything that is wrong with the\lworld!\pYou, immoral youngsters, walking\naround like you own everything you\lsee, like everything is owed you\lby virtue of your having been\lborn!\pI fought in the war for your sort,\nyou know!\pDoes that give you something\nworthwhile to think about, huh?
+= [.]\c\h08Ã³\nYou!\pYou are the embodiment of\neverything that is wrong with the\lworld!\pYou, immoral youngsters, walking\naround like you own everything you\lsee, like everything is owed you\lby virtue of your having been\lborn!\pI fought in the war for your sort,\nyou know!\pDoes that give you something\nworthwhile to think about, huh?
 
 #org @yes3
 = Hmm? Yes..? I-it does?\nWahaha! I mean, I bet it does!\pWell, you go on home and you think\nabout that real good, now!
@@ -73,10 +73,10 @@ end
 = Gah!\pImpossible to get to through to\nyou with words, is it?\pWell, f-fine!\nYou asked for it, bandit!\pIf I could defend my region in\nwar, I can defend myself in\lbattle against crooks like you!
 
 #org @defeat
-= Positively inconceivable!
+= You won't get away with this!/pI'll get you arrested one way or another, [player]!
 
 #org @after
-= [.]\c\h08ó\nWhat has the world come to..?\pDisarmed[.] defeneseless[.]\pAt the hands of some pink-haired,\ncostume-wearing punk[.]\pNo..!\c\h08ó Hey, no! Please don't!\c\h08ó\nI won't allow--\c\h08ó m-my Bicycles..!
+= [.]\c\h08Ã³\nWhat has the world come to..?\pDisarmed[.] defeneseless[.]\pAt the hands of some pink-haired,\ncostume-wearing punk[.]\pNo..!\c\h08Ã³ Hey, no! Please don't!\c\h08Ã³\nI won't allow--\c\h08Ã³ m-my Bicycles..!
 
 #org @bikeGet
 = [player] stole the Bicycle from the\nBike Shop!
