@@ -48,7 +48,7 @@ waitmovement 0x0
 return
 
 #org @ellipses
-= ...
+= .../pOut of my way, Rocket.
 
 
 #org @walk1
