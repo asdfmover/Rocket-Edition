@@ -238,16 +238,16 @@ givemoney 0x1F4 0x0
 goto @payment
 
 #org @talk
-= Howdy there, pretty boy. Welcome\nto the Pokémon black market.\pGot any stolen Pokémon you'd like\nto sell?
+= Howdy there, pretty boy. Welcome\nto the PokÃ©mon black market.\pGot any stolen PokÃ©mon you'd like\nto sell?
 
 #org @noTalk
-= Then what you wasting my time for?\nI ain't messing about here!\pCome back with a nice, big juicy\ncreature and we'll talk.
+= Then LEAVE ME ALONE!\pUnless you have good pokemon!
 
 #org @errorTalk
-= What you doing messing with me?!\pYou only got one Pokémon left, you\nugly piece of trash!\pYou want to get big black question\nmarks floating around, or what?!
+= What you doing messing with me?!\pYou only got one PokÃ©mon left, you\nugly piece of trash!\pYou want to get big black question\nmarks floating around, or what?!
 
 #org @missingnoTalk
-= What in the googly good heavens\nis that pixelated freak?!\pMy dealers ain't going to want\nnothing to do with that!\pGive me a Pokémon with a face, why\ndon't ya?!
+= What in the googly good heavens\nis that pixelated freak?!\pMy dealers ain't going to want\nnothing to do with that!\pGive me a PokÃ©mon with a face, why\ndon't ya?!
 
 #org @selectTalk
 = Now we're talking.\nLet's see that little sucker.
