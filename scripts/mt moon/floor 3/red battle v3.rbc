@@ -62,7 +62,7 @@ fadein 0x3
 pause 0x40
 hidesprite RED
 setvar 0x401A 0x3
-clearflag 0x828 // temporarily removes Pokémon menu
+clearflag 0x828 // temporarily removes PokÃ©mon menu
 setflag 0x2F // fossil flag
 setflag 0x30 // fossil flag
 setflag 0x232 // fossil flag
@@ -85,7 +85,7 @@ end
 = ...
 
 #org @playerwin
-= WTF??\nDid you use cheat codes??\pBro, you weren't supposed to beat\nme just now!\p[.]\pGod, how's a man supposed to keep\na plot going if you go about\lmessing it up?!\pOkay, listen: just go along with\nwhat happens next and pretend like\lI just beat you straight out,\lokay?\pJesus.
+= WTF??\nDid you use cheat codes??\pBro, you weren't supposed to beat\nme just now!\p[.]\pOkay, listen: just go along with\nwhat happens next and pretend like\lI just beat you straight out,\lokay?
 
 #org @moveaway
 #raw 0x19
