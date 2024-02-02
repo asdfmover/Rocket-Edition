@@ -216,7 +216,7 @@ fadeout 0x0
 sound 0x0
 fadein 0x0
 setflag 0x205
-setflag 0x828 // re-activates Pokémon menu
+setflag 0x828 // re-activates PokÃ©mon menu
 setvar 0x401A 0x4
 setvar 0x4018 0x1
 warp 0x1 0x2A 0xFF 0x0C 0x06
@@ -259,7 +259,8 @@ end
 = And the fossils, too.\nOh, goodness[.]
 
 #org @nerdtalk4
-= [.]\p([.]damn it, why did I even agree\nto keep doing these stupid odd\ljobs for Team Rocket?)\p(I knew I should have stayed at\nthe Pewter Museum.)\p(At least they gave me a steady\npaycheck to rely on, for\lChrissakes[.])
+= [.]\p([.]damn it, why did I even agree\nto keep doing these stupid odd\ljobs for Team Rocket?)\p(I knew I should have stayed at\nthe Pewter Museum.)\p(At least they gave me a steady\npaycheck to rely on, for\lChrissakes[.])
+
 
 #org @ronappear
 #raw STEP_U
@@ -292,7 +293,8 @@ end
 = Ronnie: Guys, guys! You're never\ngoing to believe this!\pThere's another crazy strong\nlittle kid Trainer walking around\lsomewhere in the cave!\pThey say this one's got a\nCharmeleon, and that he's a lot\lstronger, even, than the spiky-\lhaired twer--
 
 #org @rontalk2
-= Hang on[.]\n\c\h08ó.\c\h08ó.\c\h08ó.\c\h08ó\pNaw, don't tell me[.]\nNo, it can't be..!
+= Hang on[.]\n\c\h08Ã³.\c\h08Ã³.\c\h08Ã³.\c\h08Ã³\pNaw, don't tell me[.]\nNo, it can't be..!
+
 
 #org @moveawayRight
 #raw STEP_R2
@@ -313,7 +315,9 @@ end
 #raw 0xFE
 
 #org @rontalk3
-= [.]\c\h08ó\c\h08ó\pWhat[.]\c\h08ó\\c\h08ó\ndid you guys[.]\c\h08ó\c\h08ó
+= [.]\c\h08Ã³\c\h08Ã³\pWhat[.]\c\h08Ã³\\c\h08Ã³\ndid you guys[.]\c\h08Ã³\c\h08Ã³
+
+
 
 #org @rontalk4
 = DO?!
@@ -338,7 +342,8 @@ end
 #raw 0xFE
 
 #org @rontalk5
-= Where are my goddamn fossils,\nhuh?! I swear to God[.]\pI leave you two alone for two\nseconds and you go and mess this\lwhole thing up for me, don't you!
+= Where are my gosh darn fossils,\nhuh?! I swear to Arceus[.]\pI leave you two alone for two\nseconds and you go and mess this\lwhole thing up for me, don't you!
+
 
 #org @nerdtalk5
 = W-well, listen!\pWe both tried to fend him off, but\nhe was just way too strong[.]\pHe just kind of shrugged us off\nand ran away with both fossils!\pThere was nothing we could do, I\nswear!
@@ -370,10 +375,12 @@ end
 = (Jesus Arceus Christ. This is\ngonna go over well with Boss[.])
 
 #org @pettalk4
-= The kid. I suppose you got a good\nlook at him.\pDid you see what kind of Pokémon\nhe used, what kind of clothes he\lwas wearing-- noticed any\ldistinguishing characteristics?
+= The kid. I suppose you got a good\nlook at him.\pDid you see what kind of PokÃ©mon\nhe used, what kind of clothes he\lwas wearing-- noticed any\ldistinguishing characteristics?
+
 
 #org @nerdtalk7
-= Y-yes, sir.\nOr, that is, only just barely.\pHe had me on the ground in no time\nat all, and then he just ran off!
+= Y-yes, sir.\nOr, that is, only just barely.\pHe had me on the ground in no time\nat all, and then he just ran off!
+
 
 #org @petwalk
 #raw STEP_D
@@ -384,7 +391,7 @@ end
 = Th-this pink-haired grunt here\nfought him too, though[.]\pI don't know if maybe he fared any\nbetter[.]
 
 #org @pettalk5
-= Petrel: You.\nWhat's your name, grunt?\p[.]\p[player]?\c\h08ó\nThat's right, I remember now.\pYou fought this kid Trainer just\nnow, did you?\pAnd you remember what he looked\nlike; what Pokémon he used?
+= Petrel: You.\nWhat's your name, grunt?\p[.]\p[player]?\c\h08Ã³\nThat's right, I remember now.\pYou fought this kid Trainer just\nnow, did you?\pAnd you remember what he looked\nlike; what PokÃ©mon he used?
 
 #org @punched
 #raw 0x3C
@@ -402,14 +409,19 @@ end
 #org @angrypet2
 = I've got all day, pal.\pAnytime you feel like cooperating,\njust give me a shout.\p[.]\pNow tell me: Do you remember what\nthe kid Trainer you just fought\llooks like?!
 
+#org @angrypet3
+= Why won't you just tell the truth, grunt?!\pJust answer this: Do you remember what\nthe kid Trainer looked like?!
+
 #org @pettalk6
 = Good.\pAt least one of you darn grunts\nproved to be of some use today.
 
 #org @pettalk7
-= We'll have to investigate this\nmatter further.\pWe can't have little kids running\naround beating the crap out of an\lentire squad of us and running\laway!\pThat'll spell the doom for Team\nRocket's image.
+= We'll have to investigate this\nmatter further.\pWe can't have little kids running\naround beating the crap out of an\lentire squad of us and running\laway!\pThat'll spell the doom for Team\nRocket's image.
+
 
 #org @pettalk7extra
-= I imagine Boss will want a word\nwith you back at HQ.
+= I imagine Boss will want a word\nwith you back at HQ.
+
 
 #org @onestep
 #raw STEP_U
@@ -422,10 +434,12 @@ end
 = Nothing more to be done here.\nYou're all dismissed.\pReport back to HQ as soon as\npossible.
 
 #org @desperateron
-= Ronnie: B-but what about me,\nPetrel?\pI found the fossils for you,\ndidn't I?
+= Ronnie: B-but what about me,\nPetrel?\pI found the fossils for you,\ndidn't I?
+
+
 
 #org @pettalk10
-= Petrel: Yes, and a fat lot of good\nit did us too, eh?\pI'll hear no more of it, grunt.\nDo as you're told, now.
+= Petrel: Yes, and a fat lot of good\nit did us too, eh?\pDon't talk anymore, grunt.\nNow do as you're told.
 
 #org @petleave
 #raw STEP_D
