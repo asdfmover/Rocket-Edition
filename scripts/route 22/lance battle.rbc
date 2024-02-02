@@ -145,22 +145,22 @@ return
 = Lance: Giovanni?!
 
 #org @talk3
-= No[.]\c\h08ó You're just one of his more\nwell-dressed goons, aren't you?\pOff to loot some exotic Pokémon from\ntravelling Victory Road Trainers?\pI'll say[.]\c\h08ó that's a real menace to\nsafety for League challengers!
+= No[.]\c\h08Ã³ You're just one of his more\nwell-dressed goons, aren't you?\pOff to loot some exotic PokÃ©mon from\ntravelling Victory Road Trainers?\pI'll say[.]\c\h08Ã³ that's a real menace to\nsafety for League challengers!
 
 #org @talk4
-= And most decidedly[.]\c\h08ó\nNot my problem anymore!
+= And most decidedly[.]\c\h08Ã³\nNot my problem anymore!
 
 #org @talk5
-= [.]\c\h08ó\nWell..?\pHaven't you heard, bum?\c\h08ó\nHa!\pThen I'll spare you the effort of\nburgling the newsstand tomorrow!
+= [.]\c\h08Ã³\nWell..?\pHaven't you heard, bum?\c\h08Ã³\nHa!\pThen I'll spare you the effort of\nburgling the newsstand tomorrow!
 
 #org @talk6
-= It's over!\c\h08ó\nI'm no longer Champion!
+= It's over!\c\h08Ã³\nI'm no longer Champion!
 
 #org @talk7
-= A decade of unchallenged reign[.]\c\h08ó\nGone, in an instant!\pBy some[.]\pGod, I can't even say it!\c\h08ó\nWhat will my grandfather think..?!\pSome little kid from some middle-\nof-nowhere town!
+= A decade of unchallenged reign[.]\c\h08Ã³\nGone, in an instant!\pBy some[.]\pGod, I can't even say it!\c\h08Ã³\nWhat will my grandfather think..?!\pSome little kid from some middle-\nof-nowhere town!
 
 #org @talk8
-= It's[.]\c\h08ó\nPositively absurd[.]
+= It's[.]\c\h08Ã³\nPositively absurd[.]
 
 #org @hey
 = Hey!
@@ -169,19 +169,22 @@ return
 = And what are you so smug about it\nfor?\pDon't you go thinking this is\nsome political victory for you\lsilly bunch of anarchists, now!\pEntitled, delusional delinquents\nis all Team Rocket ever was..!\pThis changes nothing!
 
 #org @talk10
-= Agh[.] I thought nothing could\naggravate me any further today,\lbut you've done it, punk!\pI don't care if the region\nsoon breaks apart now this\lfarmboy is Champion[.]\pI'll show you how a real leader\ndeals with criminals like you!\c\h0B[Ke]À
+= Agh[.] I thought nothing could\naggravate me any further today,\lbut you've done it, punk!\pI don't care if the region\nsoon breaks apart now this\lfarmboy is Champion[.]\pI'll show you how a real leader\ndeals with criminals like you!\c\h0B[Ke]Ã€
 
 #org @defeatText
 = I'm hallucinating!
 
+#org @playerLossText
+= Prepare to get arrested, [player]!
+
 #org @stolenTalk
-= M-my [buffer2]!\c\h08ó\nHow could this happen..?\pI'll need to have it replaced..!
+= M-my [buffer2]!\c\h08Ã³\nHow could this happen..?\pI'll need to have it replaced..!
 
 #org @talk11
-= Unbelievable[.]\c\h08ó\nPunk like you[.]\pAh[.]\c\h08ó\nI need to find my composure again[.]\pI'm letting my emotions ruin my\nbattle strategy[.]
+= Unbelievable[.]\c\h08Ã³\nPunk like you[.]\pAh[.]\c\h08Ã³\nI need to find my composure again[.]\pI'm letting my emotions ruin my\nbattle strategy[.]
 
 #org @talk12
-= [.]\c\h08ó\nI'll have you know, Mr. Mafioso[.]\pI could've taken you all out long\nago.\pI knew about your little Game\nCorner hideout.\pIt's not as if my new anti-crime\nlaws did anything to stop you.\p[.]\c\h08ó\nI didn't mean them to.
+= [.]\c\h08Ã³\nI'll have you know, Mr. Mafioso[.]\pI could've taken you all out long\nago.\pI knew about your little Game\nCorner hideout.\pIt's not as if my new anti-crime\nlaws did anything to stop you.\p[.]\c\h08Ã³\nI didn't mean them to.
 
 #org @talk13
 = I wanted to wait. For you to cause\na real public spectacle.\pArrest and punish you as headline\nnews, to make a statement[.]\pTo please the crowds, restore their\nfaith in me.\pAnd to show my doubters just how\nmad all gangs like yours are[.]\pThat still long for returning to a\npre-war Kanto..!
@@ -190,10 +193,10 @@ return
 = Your Silph Co. invasion was the\nperfect opportunity[.]\pI was going to rush in at the last\nminute, give your boss a beating\land save the day[.]\pBut by the time I arrived[.]\pIt seemed someone had already\nbeaten me to it[.]
 
 #org @talk15
-= Well!\c\h08ó\nWhat's done is done.\pI'm not finished with Kanto yet.\nI still have a position to defend.\pI'm a member of the Elite Four now,\nyou see. New responsibilities.
+= Well!\c\h08Ã³\nWhat's done is done.\pI'm not finished with Kanto yet.\nI still have a position to defend.\pI'm a member of the Elite Four now,\nyou see. New responsibilities.
 
 #org @talk16
-= [.]\c\h08ó\nHmph!\pSo excuse me while I go change the\nnew Champion's diapers..!
+= [.]\c\h08Ã³\nHmph!\pSo excuse me while I go change the\nnew Champion's diapers..!
 
 
 #org @stepL
